@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#qualifications">Qualifications</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I'm Ishara Dias</p>
+                    <h1 class="name">A Data Analyst <br> <span class="typing-text"></span></h1>
+                    <p class="hero-description">
+                        Transforming raw data into actionable insights. I specialize in data visualization, statistical
+                        analysis, and business intelligence to drive strategic decisions.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Placeholder or dynamic illustration -->
+                    <div class="glow-effect"></div>
+                    <img src="assets/profile-photo.jpeg" alt="Ishara Dias Profile Photo" class="hero-img"
+                        style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 210, 255, 0.2);">
+                </div>
+            </div>
+            <!-- Scroll indicator -->
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing bg-secondary">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-container">
+                    <div class="about-image reveal">
+                        <div class="image-frame">
+                            <!-- Using provided graduation photo if requested, placeholder for now -->
+                            <img src="assets/profile-photo.jpeg" alt="Ishara Dias Profile Image" id="profile-img">
+                        </div>
+                    </div>
+                    <div class="about-text reveal">
+                        <h3 class="about-subtitle">Analytical Thinker & Problem Solver</h3>
+                        <p>
+                            I specialize in developing predictive models and data-driven solutions that transform
+                            complex datasets into strategic insights. Experienced in Python, SQL, and machine learning
+                            techniques, I focus on building scalable analytical systems that support intelligent
+                            decision-making and business growth.
+                        </p>
+
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h4>Data Sets</h4>
+                                <p>Analyzed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Reports</h4>
+                                <p>Generated</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Insights</h4>
+                                <p>Delivered</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-spacing">
+            <div class="container">
+                <h2 class="section-title">My <span>Education</span></h2>
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Present</span>
+                            <h3 class="timeline-title">Master of Science in Applied Statistics</h3>
+                            <h4 class="timeline-institution">University of Sri Jayewardenepura</h4>
+                            <p>Advanced studies in statistical modeling, data analysis, and predictive techniques.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Completed</span>
+                            <h3 class="timeline-title">BSc (Hons) in Data Science</h3>
+                            <h4 class="timeline-institution">University of Plymouth, UK</h4>
+                            <p>Focus on statistical learning, database management, and data visualization techniques.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Qualifications Section -->
+        <section id="qualifications" class="qualifications section-spacing bg-secondary">
+            <div class="container">
+                <h2 class="section-title">Professional <span>Qualifications</span></h2>
+                <div class="cards-grid">
+                    <!-- Cert 1 -->
+                    <div class="card reveal">
+                        <div class="card-icon"><i class="fab fa-google"></i></div>
+                        <h3>Google Data Analytics Professional Certificate</h3>
+                        <p>Comprehensive training covering the data analysis process: ask, prepare, process, analyze,
+                            share, and act.</p>
+                        <span class="cert-date">Completed: 2023</span>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="card reveal">
+                        <div class="card-icon"><i class="fas fa-database"></i></div>
+                        <h3>SQL for Data Science</h3>
+                        <p>Advanced querying, data wrangling, and database design focused on analytical outcomes.</p>
+                        <span class="cert-date">Completed: 2023</span>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="card reveal">
+                        <div class="card-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h3>Tableau Desktop Specialist</h3>
+                        <p>Demonstrated foundational product knowledge and skills to create interactive dashboards and
+                            visualizations.</p>
+                        <span class="cert-date">Completed: 2022</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-spacing">
+            <div class="container">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="skills-wrapper reveal">
+
+                    <div class="skill-category">
+                        <h3>Languages & Databases</h3>
+                        <div class="skill-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">R</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Excel (Advanced)</span>
+                            <span class="tag">Jupyter</span>
+                            <span class="tag">AWS (Basic)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Techniques</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Data Cleaning</span>
+                            <span class="tag">Statistical Modeling</span>
+                            <span class="tag">A/B Testing</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Data Visualization</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Brief) -->
+        <section id="projects" class="projects section-spacing bg-secondary">
+            <div class="container">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="cards-grid">
+                    <div class="project-card reveal">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sales Performance Dashboard</h3>
+                            <p>Interactive Power BI dashboard analyzing regional sales trends and predicting future
+                                quarterly performance.</p>
+                            <div class="project-tech">
+                                <span>Power BI</span>
+                                <span>SQL</span>
+                            </div>
+                            <a href="#" class="btn-text">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Customer Churn Prediction</h3>
+                            <p>Developed a Random Forest model in Python to predict telecom customer churn with 85%
+                                accuracy.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <a href="#" class="btn-text">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-container reveal">
+                    <div class="contact-info">
+                        <h3>Let's talk about data</h3>
+                        <p>I'm currently available for freelance projects or full-time opportunities. If you have a
+                            dataset that needs demystifying, send me a message.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>isharalakshandias@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Colombo, Sri Lanka</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/ishara-dias-49697b24a" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-kaggle"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Ishara Dias. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
